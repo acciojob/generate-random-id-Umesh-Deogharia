@@ -4,7 +4,7 @@ function makeid(l) {
 	let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 	for (let i = 0; i < l; i++) {
-		const str = characters.codeAt( Math.floor(Math.random() * characters.length));
+		const str = characters.charAt( Math.floor(Math.random() * characters.length));
 		res += str;
 	} return res;
 	
